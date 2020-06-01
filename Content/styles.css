@@ -1,0 +1,62 @@
+﻿.mainBox {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:5rem;
+}
+
+.cssGrid {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+
+    .cssGrid td, .cssGrid th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        max-width: 200px;
+        word-wrap: break-word;
+    }
+
+.cssGrid th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #788082;
+        color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.cssGrid tr:hover {
+        background-color: #ddd;
+}
+
+.buttonUpload {
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: #666666;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 4px 18px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+}
+
+    .buttonUpload:hover {
+        background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+        background-color: #f6f6f6;
+    }
+
+    .buttonUpload:active {
+        position: relative;
+        border: none;
+    }
